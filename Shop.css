@@ -1,0 +1,26 @@
+#ShopDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+    background-color: rgba(18, 130, 241, 0.418);
+}
+
+#Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 230px;
+    justify-content: space-between;
+}
+
+#Items div {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
