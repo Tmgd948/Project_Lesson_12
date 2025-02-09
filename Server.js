@@ -8,7 +8,7 @@ const port = 3000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://tomergaddy:1234@cluster0.nkqnd.mongodb.net/SvShop")
+mongoose.connect("")
     .then(() => {
         console.log("Mongo DB is connected...")
     })
